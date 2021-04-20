@@ -1,8 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19000,
-  "expoServerNgrokUrl": "https://65-wnh.anonymous.test-tsx.exp.direct",
-  "packagerNgrokUrl": "https://packager.65-wnh.anonymous.test-tsx.exp.direct",
-  "ngrokPid": 17944
+  "expoServerPort": null,
+  "packagerPort": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "packagerPid": null,
+  "webpackServerPort": null
 }
