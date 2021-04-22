@@ -1,13 +1,17 @@
-import React, {FC} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { StyleSheet, Text, View, ScrollView, StatusBar } from 'react-native';
 
-interface IcameraProps{ }
+import style from '../../constans/defaultView'
+import TopText from '../../constans/text';
 
-const setting: React.FC<IcameraProps> = props=>
+
+interface IsettingProps{ }
+
+const setting: React.FC<IsettingProps>  = props =>
 
 {
     return(
-    <Text>Hello in Settingsplash</Text>
+    <ScrollView style={style.container}><TopText>Hello in Settingsplash</TopText></ScrollView>
     )
     
 }

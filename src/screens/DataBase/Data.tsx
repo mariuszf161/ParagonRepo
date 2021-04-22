@@ -1,12 +1,16 @@
-import React, {FC} from 'react';
-import { Text, StyleSheet} from 'react-native';
+import * as React from 'react';
+import { Text, StyleSheet, View} from 'react-native';
+
+import style from '../../constans/defaultView';
+import TopText from '../../constans/text'
 
 interface IDataProps{ }
 
 const data: React.FC<IDataProps> = props =>
 {
     return(
-        <Text>Hello in DataSplash</Text>
+    <View style={style.container}>
+        <TopText>Hello in DataSplash</TopText></View>
     )
 }
 export default data
