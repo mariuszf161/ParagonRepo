@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
 import style from '../../constans/defaultView';
 import TopText from '../../constans/text';
 

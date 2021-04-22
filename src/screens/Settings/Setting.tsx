@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, Text, View, ScrollView, StatusBar } from 'react-native';
+import {ScrollView} from 'react-native';
 
 import style from '../../constans/defaultView'
 import TopText from '../../constans/text';
