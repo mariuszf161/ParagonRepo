@@ -5,6 +5,7 @@ export default {
     darkblue: '#2c73fc',
     green: '#2cfcb1',
     red: '#2cfcb1',
-    black: '#000'
+    black: '#000',
+    navblue:'#6698f8'
 
 }

@@ -10,7 +10,7 @@ const data: React.FC<IDataProps> = props =>
 {
     return(
     <View style={style.container}>
-        <TopText>Hello in DataSplash</TopText></View>
+        <TopText>Moje paragony</TopText></View>
     )
 }
 export default data

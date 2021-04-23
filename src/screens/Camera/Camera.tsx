@@ -9,7 +9,7 @@ const camera: React.FC<IcameraProps> = props=>
 
 {
     return(
-    <View style={style.container}><TopText>Hello in Camerasplash</TopText></View>
+    <View style={style.container}><TopText>Skaner</TopText></View>
     )
     
 }

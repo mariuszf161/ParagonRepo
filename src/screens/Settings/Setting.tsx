@@ -11,7 +11,7 @@ const setting: React.FC<IsettingProps>  = props =>
 
 {
     return(
-    <ScrollView style={style.container}><TopText>Hello in Settingsplash</TopText></ScrollView>
+    <ScrollView style={style.container}><TopText>Ustawienia</TopText></ScrollView>
     )
     
 }

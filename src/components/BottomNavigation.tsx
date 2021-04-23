@@ -5,6 +5,7 @@ import colors from '../constans/colors';
 import camera from "../screens/Camera/Camera"
 import data from "../screens/DataBase/Data"
 import setting from "../screens/Settings/Setting"
+import {FontAwesome5} from 'react-native-vector-icons'
 
 const Tab = createBottomTabNavigator();
 
@@ -13,16 +14,32 @@ function Nav(){
         <Tab.Navigator 
         initialRouteName= "Skaner"
         tabBarOptions ={{
-            activeBackgroundColor: colors.blue,
-            activeTintColor: colors.green,
-            inactiveBackgroundColor: colors.blue
-            
-            
+            activeBackgroundColor: colors.green,
+            activeTintColor: colors.black,
+            inactiveBackgroundColor: colors.blue,
+            inactiveTintColor: colors.white,
         }}
         >
-            <Tab.Screen name="Paragony" component ={ data}></Tab.Screen>
-            <Tab.Screen name="Skaner" component ={camera} ></Tab.Screen>
-            <Tab.Screen name="Ustawienia" component ={setting}></Tab.Screen>
+            <Tab.Screen name="Paragony" component ={data}
+            options = {{
+                tabBarIcon: ({size, color}) =>(
+                    <FontAwesome5 name="receipt" color={color} size={size}/>
+                )
+            }}
+            ></Tab.Screen>
+            <Tab.Screen name="Skaner" component ={camera} 
+            options ={{
+                tabBarIcon:({size, color}) =>
+                <FontAwesome5 name="camera" color={color} size={size}/>
+            }}
+            ></Tab.Screen>
+            <Tab.Screen name="Ustawienia" component ={setting}
+            options={{
+                tabBarIcon:({size, color}) =>(
+                    <FontAwesome5 name="cog" color={color} size={size}/>
+                )
+            }}
+            ></Tab.Screen>
 
         </Tab.Navigator>
     )
