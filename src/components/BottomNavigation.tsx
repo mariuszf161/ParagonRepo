@@ -3,13 +3,13 @@ import React, {FC} from 'react';
 import colors from '../constans/colors';
 
 import camera from "../screens/Camera/Camera"
-import data from "../screens/DataBase/Data"
+import data from "../screens/DataBase"
 import setting from "../screens/Settings/Setting"
 import {FontAwesome5} from 'react-native-vector-icons'
 
 const Tab = createBottomTabNavigator();
-
-function Nav(){
+ 
+const Nav = () =>{
     return(
         <Tab.Navigator 
         initialRouteName= "Skaner"

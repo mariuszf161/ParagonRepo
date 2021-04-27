@@ -13,4 +13,6 @@ background-color: ${colors.blue};
 paddingBottom: ${StatusBar.currentHeight -15}px;
 `
 
+
+
 export default TopText
