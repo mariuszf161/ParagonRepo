@@ -29,6 +29,7 @@ const Nav = () =>{
             ></Tab.Screen>
             <Tab.Screen name="Skaner" component ={camera} 
             options ={{
+                unmountOnBlur: true,
                 tabBarIcon:({size, color}) =>
                 <FontAwesome5 name="camera" color={color} size={size}/>
             }}
