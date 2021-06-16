@@ -1,6 +1,5 @@
 import React, { FC, useState } from 'react';
 import { Text } from 'react-native';
-import { Button } from 'react-native-elements';
 import styled from 'styled-components';
 import { useSelector, useDispatch } from 'react-redux';
 import { MaterialCommunityIcons } from 'react-native-vector-icons';

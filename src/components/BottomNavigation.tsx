@@ -41,7 +41,6 @@ const Nav = () =>{
                 )
             }}
             ></Tab.Screen>
-
         </Tab.Navigator>
     )
 }

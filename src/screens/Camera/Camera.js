@@ -11,7 +11,6 @@ export default function App() {
   const [camera, setCamera] = useState(null);
   const [image, setImage] = useState(null);
   const [type] = useState(Camera.Constants.Type.back);
-
   useEffect(() => {
     (async () => {
       const { status } = await Camera.requestPermissionsAsync();
