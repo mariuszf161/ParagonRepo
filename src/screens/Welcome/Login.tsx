@@ -7,7 +7,7 @@ import colors from '../../constans/colors'
 export default function Login({ navigation}){
     return(
         <View style={style.container}>
-            <TopText>Zaloguj się</TopText>
+            <TopText>Zalogujs się</TopText>
             <View style={style.content}>
             <View>
                     <Image
